@@ -1,0 +1,179 @@
+
+body{
+  background-image: url("../images/tileable-dark-wood-textures-6.jpg");
+}
+
+.align-center {
+    text-align: center;
+}
+
+/*@font-face {
+  font-family: 'Queen';
+  src: url('Queen.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Jey';
+  src: url("../fonts/Jey.ttf");
+}*/
+
+.custom-container
+{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+  margin: 20px 20px 0px 20px;
+  min-height: 1000px;
+}
+
+.custom-thumbnail{
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid #f4511e;
+}
+
+.navbar {
+    /*background-color: #f4511e;*/
+    z-index: 9999;
+
+    margin-bottom: 0;
+
+    letter-spacing: 4px;
+
+    border: 0;
+    border-radius: 0;
+
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+}
+
+p
+{
+  letter-spacing: 1px;
+}
+
+.bgOrange
+{
+  background-color: rgba(244, 81, 30, 0.72);
+}
+
+.navbar li a, .navbar .navbar-brand {
+    /*color: #f4511e !important;*/
+}
+
+
+.selected {
+    color: #f4511e!important ;
+    /*background-color: #fff !important;*/
+}
+
+.navbar-nav li a:hover{
+     color: #f4511e!important;
+     background-color: #fff !important;
+}
+
+.navbar-nav li.active a .navbar-nav {
+   color: #f4511e;
+   background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    color: #fff !important;
+    border-color: transparent;
+}
+
+.section-title {
+    position: relative;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 6px 6px 3px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 6px 6px 0px transparent;
+    transition: 0.5s;
+    }
+
+
+/* ****************** MEGA MENU **************************/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Open Sans', 'sans-serif';
+}
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #f4511e;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #f4511e;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+/* ******************** USER DETAIL PANEL *************** */
+/*body {background: #EAEAEA;}*/
+.user-details {position: relative; padding: 0;}
+.user-details .user-image {position: relative;  z-index: 1; width: 100%; text-align: center;}
+ .user-image img { clear: both; margin: auto; position: relative;}
+
+.user-details .user-info-block {width: 100%; position: absolute; top: 55px; background: rgb(255, 255, 255); z-index: 0; padding-top: 35px;}
+ .user-info-block .user-heading {width: 100%; text-align: center; margin: 10px 0 0;}
+ .user-info-block .navigation {float: left; width: 100%; margin: 0; padding: 0; list-style: none; border-bottom: 1px solid rgba(244, 81, 30, 0.72); border-top: 1px solid rgba(244, 81, 30, 0.72);}
+  .navigation li {float: left; margin: 0; padding: 0;}
+   .navigation li a {padding: 20px 30px; float: left;}
+   .navigation li.active a {background: rgba(244, 81, 30, 0.72); color: #fff;}
+ .user-info-block .user-body {float: left; padding: 5%; width: 90%;}
+  .user-body .tab-content > div {float: left; width: 100%;}
+  .user-body .tab-content h4 {width: 100%; margin: 10px 0; color: #333;}
