@@ -18,6 +18,11 @@
     <!-- Add fancyBox main JS and CSS files -->
     	<script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
     	<link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+      <!-- Add iziToast -->
+      <link rel="stylesheet" href="iziToast/dist/css/iziToast.min.css">
+      <script src="iziToast/dist/js/iziToast.min.js" type="text/javascript"></script>
+
       <link href="css/style.css" rel="stylesheet">
 
       <script type="text/javascript">

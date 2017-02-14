@@ -40,5 +40,11 @@
 
 
 
-
 <?php include ("footer.php"); ?>
+
+<?php
+if($_GET['login'] == 'KO')
+  echo '<script type="text/javascript">',
+  'loginFailed();',
+  '</script>';
+?>
